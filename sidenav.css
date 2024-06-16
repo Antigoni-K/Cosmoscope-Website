@@ -1,0 +1,44 @@
+.sidenav {
+    display: block;
+    float: left;
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(180,0,480);
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 50px;
+}
+
+.sidenav a {
+    padding: 20px;
+    text-decoration: none;
+    font-size: 20px;
+    color: rgba(500, 500, 500, 0.8);
+    display: block;
+    transition: 0.5s;
+}
+
+.sidenav a:hover {
+    color: rgb(500, 500, 500);
+    background-color: rgba(0,0,0,0.8);
+    cursor: pointer;
+}
+
+.sidenav .close {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 25px;
+    margin-left: 50px;
+}
+
+#menu {
+    transition: margin-left 1s;
+    padding: 15px;
+    display: block;
+    color: rgb(500, 500, 500);
+}
